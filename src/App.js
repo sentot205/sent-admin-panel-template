@@ -1,3 +1,5 @@
+import Sidebar from './components/sidebar'
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +20,19 @@ function App() {
           Learn React
         </a>
       </header>
+      <Sidebar/>
+      <div className="h-96">
+        <h1>Head 1</h1>
+      </div>
+      <div className="h-96">
+        <h1>Head 2</h1>
+      </div>
+      <div className="h-96">
+        <h1>Head 3</h1>
+      </div>
+      <div className="h-96">
+        <h1>Head 4</h1>
+      </div>
     </div>
   );
 }
