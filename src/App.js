@@ -1,39 +1,31 @@
-import Sidebar from './components/sidebar'
+import React from "react";
+import Sidebar from "./components/sidebar";
+import Navbar from "./components/navbar";
+// import Login from "./components/login";
+import Tables from "./components/table";
+import Footer from "./components/footer";
 
-import logo from './logo.svg';
-import './App.css';
+// import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <Sidebar/>
-      <div className="h-96">
-        <h1>Head 1</h1>
+    <>
+      <Navbar />
+      <Sidebar />
+      <div className="ml-0 md:ml-64 App">
+        {/* <header className="App-header bg-white dark:bg-gray-800 text-gray-800 dark:text-white transition delay-150 duration-300">
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>
+            Edit <code>src/App.js</code> and save to reload.
+          </p>
+        </header> */}
+        {/* <Login /> */}
+        <Tables/>
+        <Footer />
       </div>
-      <div className="h-96">
-        <h1>Head 2</h1>
-      </div>
-      <div className="h-96">
-        <h1>Head 3</h1>
-      </div>
-      <div className="h-96">
-        <h1>Head 4</h1>
-      </div>
-    </div>
+    </>
   );
 }
 
