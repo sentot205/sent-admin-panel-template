@@ -1,5 +1,4 @@
 import React from "react";
-import Alert from "./alert"
 import Table, {
   AvatarCell,
   SelectColumnFilter,
@@ -116,10 +115,10 @@ function Tables() {
 
   return (
     <>
-      <div className="container mx-auto bg-white dark:bg-gray-800 h-full">
-        <div class="dark:bg-gray-800 bg-blue-500 pt-14 pb-28 px-3 md:px-8 h-auto"></div>
+      <div className="container mx-auto bg-white dark:bg-gray-900 h-full">
+        <div class="dark:bg-gray-900 bg-blue-500 pt-14 pb-28 px-3 md:px-8 h-auto"></div>
         <div className="grid grid-cols-1 p-4 -mt-32">
-          <div class="w-full bg-gray-50 dark:bg-gray-700 rounded-xl overflow-hdden shadow-md p-4 mt-16">
+          <div class="w-full bg-gray-100 dark:bg-gray-700 rounded-xl overflow-hidden p-4 mt-16">
             <div class="bg-gradient-to-tr from-green-500 to-green-700 -mt-10 mb-4 rounded-xl text-white grid items-center w-full h-24 py-4 px-8 justify-start shadow-lg-green undefined">
               <h2 class="text-gray-100 font-semibold text-2xl">
                 Total : {data.length} User
@@ -128,7 +127,6 @@ function Tables() {
             </div>
             <div class="p-4">
               <Table columns={columns} data={data} />
-              <Alert message={"This is columns"} type={`success`} close={``} />
             </div>
           </div>
         </div>
