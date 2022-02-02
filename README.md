@@ -9,3 +9,8 @@ This template build with tailwind & reactjs
 
 ## Reference
 - https://themeforest.net/category/site-templates/admin-templates
+- http://angular-material.fusetheme.com/dashboards/project
+- https://preview.themeforest.net/item/vuexy-vuejs-html-laravel-admin-dashboard-template/full_screen_preview/23328599
+- https://preview.themeforest.net/item/metronic-responsive-admin-dashboard-template/full_screen_preview/4021469
+- https://preview.themeforest.net/item/skote-html-django-admin-dashboard-template/full_screen_preview/31582060
+- https://themeforest.net/category/site-templates/admin-templates
