@@ -3,6 +3,7 @@ import { RiDashboardFill } from "react-icons/ri";
 import { BsTable } from "react-icons/bs";
 import { MdFingerprint } from "react-icons/md";
 import { BiWindow } from "react-icons/bi";
+import { FaFileInvoice } from "react-icons/fa";
 
 const navigation = [
   {
@@ -27,6 +28,12 @@ const navigation = [
     name: "Modal",
     href: "/modal",
     icon: <BiWindow className="my-auto mr-3" size={20} />,
+    current: false,
+  },
+  {
+    name: "Invoice",
+    href: "/invoice",
+    icon: <FaFileInvoice className="my-auto mr-3" size={20} />,
     current: false,
   },
 ];
